@@ -22,8 +22,8 @@
         .video-container {
             position: relative;
             width: 100%;
-            max-width: 90%; /* Adjust as needed */
-            padding-bottom: 56.25%; /* 16:9 Aspect Ratio (for typical YouTube videos) */
+            max-width: 400px; /* A common max-width for vertical videos on mobile */
+            padding-bottom: 177.77%; /* For 9:16 aspect ratio (vertical video) */
             height: 0;
             overflow: hidden;
             margin-bottom: 20px;
@@ -55,9 +55,9 @@
     <h1>Ahaaa!</h1>
     <div class="video-container">
         <iframe
-            src="https://www.youtube.com/embed/xBkOCM2JzLk?autoplay=1&mute=1&controls=0&loop=1&playlist=xBkOCM2JzLk"
+            src="https://www.youtube.com/embed/xBkOCM2JzLk?autoplay=1&controls=0&loop=1&playlist=xBkOCM2JzLk"
             frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
             allowfullscreen
         ></iframe>
     </div>
